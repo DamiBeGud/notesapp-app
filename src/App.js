@@ -12,9 +12,6 @@ function App() {
       <Route path='/register' element={<Register/>} />
       <Route path='/user/:userId' element={<User/>} />
       <Route path='/user/:userId/calendar' element={<Calendar/>} />
-
-
-
     </Routes>
   </BrowserRouter>
   )
