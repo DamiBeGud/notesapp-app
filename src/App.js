@@ -11,7 +11,7 @@ function App() {
       <Route path='/' element={<Login/>} />
       <Route path='/register' element={<Register/>} />
       <Route path='/user/:userId' element={<User/>} />
-      <Route path='/user/:userId/valendar' element={<Calendar/>} />
+      <Route path='/user/:userId/calendar' element={<Calendar/>} />
 
 
 
